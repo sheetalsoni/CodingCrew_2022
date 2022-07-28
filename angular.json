@@ -25,11 +25,15 @@
             ],
             "styles": [
               "src/css/sb-admin-2.css",
-              "src/css/sb-admin-2.min.css",
-              "src/css/googleapis.css",
-              "src/css/all.min.css.css"
+              "src/css/all.css",
+              "src/css/googleapis.css"
             ],
             "scripts": [
+              "src/js/jquery.js",
+              "src/js/bootstrap.bundle.js",
+              "src/js//jquery.easing.js",
+              "src/js/sb-admin-2.js",
+              "src/js/Chart.js",
               "src/js/demo/chart-area-demo.js",
               "src/js/demo/chart-bar-demo.js",
               "src/js/demo/chart-pie-demo.js",
