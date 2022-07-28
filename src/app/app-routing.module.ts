@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { LoadingComponent } from './loading/loading.component';
 import { MarketComponent } from './market/market.component';
 import { RoutesComponent } from './routes/routes.component';
 import { SelectionComponent } from './selection/selection.component';
@@ -7,7 +8,8 @@ import { SelectionComponent } from './selection/selection.component';
 const routes: Routes = [
   { path: 'market', component:  MarketComponent},
   { path: 'routes', component:  RoutesComponent},
-  { path: 'selection', component:  SelectionComponent}
+  { path: 'selection', component:  SelectionComponent},
+  { path: 'loading', component:  LoadingComponent}
 ];
 
 @NgModule({

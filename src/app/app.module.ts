@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { RoutesComponent } from './routes/routes.component';
 import { MarketComponent } from './market/market.component';
 import { SelectionComponent } from './selection/selection.component';
+import { LoadingComponent } from './loading/loading.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { SelectionComponent } from './selection/selection.component';
     RoutesComponent,
     MarketComponent,
     SelectionComponent,
+    LoadingComponent,
   ],
   imports: [
     BrowserModule,
