@@ -20,12 +20,21 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/img"
             ],
             "styles": [
-              "src/styles.css"
+              "src/css/sb-admin-2.css",
+              "src/css/sb-admin-2.min.css",
+              "src/css/googleapis.css",
+              "src/css/all.min.css.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/js/demo/chart-area-demo.js",
+              "src/js/demo/chart-bar-demo.js",
+              "src/js/demo/chart-pie-demo.js",
+              "src/js/demo/datatables-demo.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -97,5 +106,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "8ca05adc-9dcd-457f-814d-fc90fbcdd3b5"
   }
 }
