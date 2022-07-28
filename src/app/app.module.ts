@@ -7,6 +7,7 @@ import { RoutesComponent } from './routes/routes.component';
 import { MarketComponent } from './market/market.component';
 import { SelectionComponent } from './selection/selection.component';
 import { LoadingComponent } from './loading/loading.component';
+import { RegionComponent } from './region/region.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { LoadingComponent } from './loading/loading.component';
     MarketComponent,
     SelectionComponent,
     LoadingComponent,
+    RegionComponent,
   ],
   imports: [
     BrowserModule,
