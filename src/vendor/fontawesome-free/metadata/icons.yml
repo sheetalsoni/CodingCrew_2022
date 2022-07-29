@@ -14412,7 +14412,7 @@ pizza-slice:
   search:
     terms:
       - cheese
-      - chicago
+      - Phoenix
       - italian
       - mozzarella
       - new york

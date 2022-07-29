@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {formatDate } from '@angular/common';
 
 @Component({
   selector: 'app-market',
@@ -7,7 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MarketComponent implements OnInit {
 
-  constructor() { }
+  todayNumber: number = Date.now();
+  todayDate : Date = new Date();
+  todayString : string = new Date().toDateString();
+  todayISOString : string = new Date().toISOString();
+  constructor() {
+    // this.todaysDataTime = formatDate(this.today, 'hh:mm:ss', 'en-US');
+  }
 
   ngOnInit(): void {
   }

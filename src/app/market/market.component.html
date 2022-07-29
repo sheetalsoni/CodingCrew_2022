@@ -2,7 +2,7 @@
                     
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Chicago</h1>
+        <h1 class="h3 mb-0 text-gray-800">Phoenix</h1>
         <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                 class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
     </div>
@@ -140,7 +140,10 @@
                                 <td>1</td>
                                 <td>6113</td>
                                 <td>F</td>
-                                <td>7:30 PM <a href="#"><i class="fas fa-clock"></i></a></td>
+                                <td>
+                                    7:30 PM <a href="#"><i class="fas fa-clock"></i></a>
+                                    {{todayDate | date:'mediumTime'}}
+                                </td>
                                 <td>8:00 PM <a href="#"><i class="fas fa-clock"></i></a></td>
                                 <td>8:05 PM <a href="#"><i class="fas fa-clock"></i></a></td>
                                 <td>8:10 PM </td>

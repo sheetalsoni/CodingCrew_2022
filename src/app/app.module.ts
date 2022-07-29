@@ -8,6 +8,8 @@ import { MarketComponent } from './market/market.component';
 import { SelectionComponent } from './selection/selection.component';
 import { LoadingComponent } from './loading/loading.component';
 import { RegionComponent } from './region/region.component';
+import { TopLoaderComponent } from './top-loader/top-loader.component';
+import { TopSelectorComponent } from './top-selector/top-selector.component';
 
 
 @NgModule({
@@ -18,6 +20,8 @@ import { RegionComponent } from './region/region.component';
     SelectionComponent,
     LoadingComponent,
     RegionComponent,
+    TopLoaderComponent,
+    TopSelectorComponent,
   ],
   imports: [
     BrowserModule,
